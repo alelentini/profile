@@ -1,0 +1,67 @@
+/*-----------------------------------------------*/
+/* CSS Stylesheet                                */
+/*-----------------------------------------------*/
+
+
+.profile-body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 90%;
+}
+
+.padding-tb-10 {
+     padding-top: 10px;
+     padding-bottom: 10px;
+}
+
+.padding-t-15 {
+    padding-top: 15px;
+}
+
+.padding-t-35 {
+    padding-top: 35px;
+}
+
+.text-h1 {
+    font-weight: bold;
+}
+
+.text-h2 {
+    font-style: italic;
+}
+
+.text-h3 {
+    color:darkblue;
+}
+
+.list-1 > li {
+    list-style: none;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+.list-1 > li:before {
+    content: '+ \0000a0';
+}
+
+p {
+    line-height: 180%;
+}
+
+h4 {
+    font-size: 130%;
+    padding-top: 20px;
+    color: #404040;
+    font-weight: bold;    
+}
+
+.fa {
+    color:#404040;
+}
+
+.image-cropper {
+    height: 150px;
+    width: 150px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+}
